@@ -1,0 +1,106 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+ 
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+
+.container{
+  height:500px;
+  width: 800px;
+  display: flex;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+.image{
+  width: 350px;
+  background-image: url("assets/bmi.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 300px;
+}
+
+h1{
+  color: rgb(0, 183, 255);
+  padding: 20px;
+}
+
+.data{
+  flex: 1;
+}
+
+.inputcontainer{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+label{
+  margin-bottom: 10px;
+  color: slategray;
+  font-weight: 600;
+}
+
+input{
+  padding: 10px;
+  margin-right: 20px;
+}
+
+
+.buttons{
+  display: flex;
+}
+
+button{
+  display: flex;
+  color: white;
+  background-color: rgb(43, 174, 226) ;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.clear{
+  background-color: red;
+}
+
+.report{
+ margin: 10px;
+ padding: 20px;
+ border: solid rgb(0, 183, 255) 2px;
+ border-radius: 8px;
+ margin-right: 30px;
+}
+
+.report p{
+  margin: 10px ;
+  font-size: large;
+  font-family:  sans-serif;
+  color: black;
+  font-weight: bold;  
+}
+
+.error{
+  font-size: 14px;
+  color: red;
+  padding: 10px;
+}
+
+.calci:hover{
+   background-color: rgb(1, 130, 180);
+}
+
+.clear:hover{
+  background-color: rgb(179, 6, 6);
+}
